@@ -83,7 +83,6 @@ section p {
       width: 70px;
       margin-left: 0 0 0 auto;
       position: absolute;
-      right: 1em;
 }
 
 @media (max-width: 768px) {
@@ -118,6 +117,18 @@ section p {
       .copy {
             right: 18em;
             width: 60px;
+            cursor: pointer;
+      }
+
+}
+@media(max-width: 1280px) and (min-width: 1280px) {
+      .copy {
+            right: 26rem;
+      }
+}
+@media (min-width: 1440px) {
+      .copy {
+            right: 30.7em;
       }
 }
 
